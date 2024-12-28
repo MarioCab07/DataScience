@@ -53,8 +53,7 @@ para la salud y el bienestar general.
 """)
 st.image("grafico5.png", caption="Mi Gráfico PNG" )
 st.image("grafico6.png", caption="Mi Gráfico PNG" )
-st.image("grafico7.png", caption="Mi Gráfico PNG" )
-st.image("grafico8.png", caption="Mi Gráfico PNG" )
+
 st.image("grafico10.png", caption="Mi Gráfico PNG" )
 st.image("grafico11.png", caption="Mi Gráfico PNG" )
 st.image("grafico12.png", caption="Mi Gráfico PNG" )
