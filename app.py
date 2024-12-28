@@ -16,28 +16,46 @@ Nuestro objetivo es extraer insights clave y comunicar los resultados de manera 
 """)
 
 # Sección 2: Datos iniciales
-st.header("2. Datos y Exploración")
-st.image("grafico1.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico2.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.header("Problematica")
+st.write(""" 
+La mala alimentación es un problema que afecta a la sociedad en general. 
+Puede llevar a diversas enfermedades crónicas como la obesidad, diabetes, enfermedades cardiovasculares y ciertos tipos de cáncer. 
+Además, afecta el rendimiento académico y laboral, y puede tener un impacto negativo en la salud mental.
+""")
+st.image("imagen1.jpg")
 
-st.image("grafico3.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico4.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico5.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico6.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico7.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico8.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico10.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico11.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico12.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico13.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico14.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico15.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico16.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico17.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico18.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico19.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico20.png", caption="Mi Gráfico PNG", use_column_width=True)
-st.image("grafico21.png", caption="Mi Gráfico PNG", use_column_width=True)
+
+
+st.header("La Vida Moderna")
+st.write("""
+Hoy en día, los niveles de actividad física de las personas son considerablemente bajos. 
+El estilo de vida moderno, caracterizado por largas horas de trabajo sedentario y el uso excesivo de dispositivos electrónicos, 
+ha llevado a un aumento del sedentarismo. Esta falta de actividad física contribuye a diversos problemas de salud, 
+incluyendo la obesidad, enfermedades cardiovasculares y una disminución en el bienestar general.
+""")
+st.image("imagen2.webp")
+
+st.image("grafico1.png", caption="Mi Gráfico PNG" )
+st.image("grafico2.png", caption="Mi Gráfico PNG" )
+
+st.image("grafico3.png", caption="Mi Gráfico PNG" )
+st.image("grafico4.png", caption="Mi Gráfico PNG" )
+st.image("grafico5.png", caption="Mi Gráfico PNG" )
+st.image("grafico6.png", caption="Mi Gráfico PNG" )
+st.image("grafico7.png", caption="Mi Gráfico PNG" )
+st.image("grafico8.png", caption="Mi Gráfico PNG" )
+st.image("grafico10.png", caption="Mi Gráfico PNG" )
+st.image("grafico11.png", caption="Mi Gráfico PNG" )
+st.image("grafico12.png", caption="Mi Gráfico PNG" )
+st.image("grafico13.png", caption="Mi Gráfico PNG" )
+st.image("grafico14.png", caption="Mi Gráfico PNG" )
+st.image("grafico15.png", caption="Mi Gráfico PNG" )
+st.image("grafico16.png", caption="Mi Gráfico PNG" )
+st.image("grafico17.png", caption="Mi Gráfico PNG" )
+st.image("grafico18.png", caption="Mi Gráfico PNG" )
+st.image("grafico19.png", caption="Mi Gráfico PNG" )
+st.image("grafico20.png", caption="Mi Gráfico PNG" )
+st.image("grafico21.png", caption="Mi Gráfico PNG" )
 
  # Muestra los primeros 10 datos
 
