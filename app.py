@@ -90,3 +90,13 @@ st.image("grafico18.png", caption=" " )
 st.image("grafico19.png", caption=" " )
 
 
+st.markdown(
+    """
+    <div style="text-align: center; margin-top: 50px;">
+        <h2>Conclusiones</h2>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
