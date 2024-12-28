@@ -89,6 +89,9 @@ st.image("grafico17.png", caption=" " )
 st.image("grafico18.png", caption=" " )
 st.image("grafico19.png", caption=" " )
 
+st.header("Aplicación  del modelo")
+st.image("grafico20.png", caption=" " )
+
 
 st.markdown(
     """
