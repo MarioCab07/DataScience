@@ -9,13 +9,13 @@ st.set_page_config(page_title="Análisis de Datos", layout="wide")
 st.title("📊 Salud Alimenticia")
 
 # Sección 1: Introducción
-st.header("1. Introducción")
+st.header("Introducción")
 st.write("""
 La alimentación juega un papel clave en la prevención y manejo de diversas enfermedades crónicas, como la diabetes, la hipertensión y las enfermedades cardiovasculares. Este trabajo analiza un conjunto de datos que recopila información sobre los hábitos alimenticios y características físicas de personas que padecen estas condiciones. A través de distintas hipótesis, se busca explorar cómo factores como el nivel de actividad física, las preferencias dietéticas y el consumo de nutrientes influyen en la aparición y progresión de estas enfermedades.
 """)
 
 # Sección 2: Datos iniciales
-st.header("Problematica")
+st.header("Problemática")
 st.write(""" 
 La mala alimentación es un problema que afecta a la sociedad en general. 
 Puede llevar a diversas enfermedades crónicas como la obesidad, diabetes, enfermedades cardiovasculares y ciertos tipos de cáncer. 
