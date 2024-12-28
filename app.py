@@ -79,9 +79,12 @@ st.header("Consumo dependiendo de dieta")
 st.image("grafico15.png", caption="Mi Gráfico PNG" )
 
 
-st.image("grafico14.png", caption="Mi Gráfico PNG" )
-st.image("grafico15.png", caption="Mi Gráfico PNG" )
-st.image("grafico16.png", caption="Mi Gráfico PNG" )
+st.header("Un buen aliado como la Fibra")
+st.write("""
+El consumo de fibra tiene múltiples beneficios para la salud. Ayuda a mantener un sistema digestivo saludable al prevenir el estreñimiento y promover la regularidad intestinal. Además, la fibra puede ayudar a controlar los niveles de azúcar en sangre, lo que es especialmente beneficioso para personas con diabetes. También contribuye a reducir los niveles de colesterol, lo que puede disminuir el riesgo de enfermedades cardiovasculares. Por último, la fibra puede ayudar en el control del peso al proporcionar una sensación de saciedad, lo que puede reducir la ingesta total de calorías.
+""")
+st.image("imagen4.webp", caption="Mi Gráfico PNG" )
+st.header("El peso y la fibra")
 st.image("grafico17.png", caption="Mi Gráfico PNG" )
 st.image("grafico18.png", caption="Mi Gráfico PNG" )
 st.image("grafico19.png", caption="Mi Gráfico PNG" )
