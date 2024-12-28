@@ -66,11 +66,11 @@ Problemas Renales""")
 st.image("grafico9.png", caption=" " )
 
 
-st.header("El peligro de la azucar")
+st.header("El peligro del azúcar ")
 st.write("""
 El consumo excesivo de azúcar está asociado con una serie de problemas de salud. Entre ellos se incluyen la obesidad, la diabetes tipo 2, enfermedades cardiovasculares y caries dentales. El azúcar en exceso puede llevar a un aumento de peso significativo, lo que incrementa el riesgo de desarrollar enfermedades crónicas. Además, el consumo elevado de azúcar puede causar picos de glucosa en sangre, lo que a largo plazo puede resultar en resistencia a la insulina y diabetes. También se ha relacionado con un mayor riesgo de enfermedades del corazón debido a su impacto negativo en los niveles de colesterol y presión arterial.
 """)
-st.image("imagen3.webp", caption="Azucar")
+st.image("imagen3.webp", caption="Azúcar ")
 
 
 st.image("grafico12.png", caption=" " )
