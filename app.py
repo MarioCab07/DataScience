@@ -22,7 +22,7 @@ La mala alimentación es un problema que afecta a la sociedad en general.
 Puede llevar a diversas enfermedades crónicas como la obesidad, diabetes, enfermedades cardiovasculares y ciertos tipos de cáncer. 
 Además, afecta el rendimiento académico y laboral, y puede tener un impacto negativo en la salud mental.
 """)
-st.image("imagen1.jpg")
+st.image("imagen1.jpg", caption="Mi Gráfico PNG" )
 
 
 
