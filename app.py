@@ -54,8 +54,16 @@ para la salud y el bienestar general.
 st.image("grafico5.png", caption="Mi Gráfico PNG" )
 st.image("grafico6.png", caption="Mi Gráfico PNG" )
 
-st.image("grafico10.png", caption="Mi Gráfico PNG" )
-st.image("grafico11.png", caption="Mi Gráfico PNG" )
+st.header("Restricción proteica y daño renal crónico")
+st.write("""
+El consumo excesivo de proteínas puede sobrecargar los riñones, ya que estos órganos son responsables de filtrar los desechos producidos por el metabolismo de las proteínas. A largo plazo, esta sobrecarga puede llevar a un deterioro de la función renal y eventualmente a enfermedades renales crónicas. Por otro lado, una ingesta insuficiente de proteínas puede resultar en desnutrición y pérdida de masa muscular, lo que también puede afectar negativamente la salud renal. Es crucial mantener un equilibrio adecuado en el consumo de proteínas para preservar la salud de los riñones.
+""")
+
+st.image("grafico8.png", caption="Mi Gráfico PNG" )
+
+st.write("""
+Problemas Renales""")
+st.image("grafico9.png", caption="Mi Gráfico PNG" )
 st.image("grafico12.png", caption="Mi Gráfico PNG" )
 st.image("grafico13.png", caption="Mi Gráfico PNG" )
 st.image("grafico14.png", caption="Mi Gráfico PNG" )
