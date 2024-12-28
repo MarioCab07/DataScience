@@ -36,12 +36,12 @@ st.image("imagen2.webp")
 
 st.header("Actividad de los pacientes")
 
-st.image("grafico1.png", caption="Mi Gráfico PN" )
+st.image("grafico1.png", caption=" " )
 
 st.header("Enfermedades relacionadas al sedentarismo")
 
 
-st.image("grafico2.png", caption="Mi Gráfico PNG" )
+st.image("grafico2.png", caption=" " )
 
 st.header("Diferencia Calórica y Problemas de Salud")
 st.write("""
@@ -51,19 +51,19 @@ como la diabetes tipo 2, enfermedades cardiovasculares y ciertos tipos de cánce
 resultar en desnutrición, pérdida de masa muscular y un sistema inmunológico debilitado. Mantener un equilibrio calórico adecuado es esencial 
 para la salud y el bienestar general.
 """)
-st.image("grafico5.png", caption="Mi Gráfico PNG" )
-st.image("grafico6.png", caption="Mi Gráfico PNG" )
+st.image("grafico5.png", caption=" " )
+st.image("grafico6.png", caption=" " )
 
 st.header("Restricción proteica y daño renal crónico")
 st.write("""
 El consumo excesivo de proteínas puede sobrecargar los riñones, ya que estos órganos son responsables de filtrar los desechos producidos por el metabolismo de las proteínas. A largo plazo, esta sobrecarga puede llevar a un deterioro de la función renal y eventualmente a enfermedades renales crónicas. Por otro lado, una ingesta insuficiente de proteínas puede resultar en desnutrición y pérdida de masa muscular, lo que también puede afectar negativamente la salud renal. Es crucial mantener un equilibrio adecuado en el consumo de proteínas para preservar la salud de los riñones.
 """)
 
-st.image("grafico8.png", caption="Mi Gráfico PNG" )
+st.image("grafico8.png", caption=" " )
 
 st.write("""
 Problemas Renales""")
-st.image("grafico9.png", caption="Mi Gráfico PNG" )
+st.image("grafico9.png", caption=" " )
 
 
 st.header("El peligro de la azucar")
@@ -73,21 +73,20 @@ El consumo excesivo de azúcar está asociado con una serie de problemas de salu
 st.image("imagen3.webp", caption="Azucar")
 
 
-st.image("grafico12.png", caption="Mi Gráfico PNG" )
+st.image("grafico12.png", caption=" " )
 
 st.header("Consumo dependiendo de dieta")
-st.image("grafico15.png", caption="Mi Gráfico PNG" )
+st.image("grafico15.png", caption=" " )
 
 
 st.header("Un buen aliado como la Fibra")
 st.write("""
 El consumo de fibra tiene múltiples beneficios para la salud. Ayuda a mantener un sistema digestivo saludable al prevenir el estreñimiento y promover la regularidad intestinal. Además, la fibra puede ayudar a controlar los niveles de azúcar en sangre, lo que es especialmente beneficioso para personas con diabetes. También contribuye a reducir los niveles de colesterol, lo que puede disminuir el riesgo de enfermedades cardiovasculares. Por último, la fibra puede ayudar en el control del peso al proporcionar una sensación de saciedad, lo que puede reducir la ingesta total de calorías.
 """)
-st.image("imagen4.webp", caption="Mi Gráfico PNG" )
+st.image("imagen4.webp", caption=" " )
 st.header("El peso y la fibra")
-st.image("grafico17.png", caption="Mi Gráfico PNG" )
-st.image("grafico18.png", caption="Mi Gráfico PNG" )
-st.image("grafico19.png", caption="Mi Gráfico PNG" )
-st.image("grafico20.png", caption="Mi Gráfico PNG" )
-st.image("grafico21.png", caption="Mi Gráfico PNG" )
+st.image("grafico17.png", caption=" " )
+st.image("grafico18.png", caption=" " )
+st.image("grafico19.png", caption=" " )
+
 
