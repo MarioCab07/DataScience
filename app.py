@@ -6,7 +6,7 @@ import pandas as pd
 st.set_page_config(page_title="Análisis de Datos", layout="wide")
 
 # Título de la app
-st.title("📊 Narrativa de Datos")
+st.title("📊 Salud Alimenticia")
 
 # Sección 1: Introducción
 st.header("1. Introducción")
@@ -17,10 +17,29 @@ Nuestro objetivo es extraer insights clave y comunicar los resultados de manera 
 
 # Sección 2: Datos iniciales
 st.header("2. Datos y Exploración")
-uploaded_file = st.file_uploader("Carga tu dataset en formato CSV", type="csv")
-if uploaded_file:
-    data = pd.read_csv(uploaded_file)
-    st.dataframe(data.head(10))  # Muestra los primeros 10 datos
+st.st.image("grafico1.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico2.png", caption="Mi Gráfico PNG", use_column_width=True)
+
+st.st.image("grafico3.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico4.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico5.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico6.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico7.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico8.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico10.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico11.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico12.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico13.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico14.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico15.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico16.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico17.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico18.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico19.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico20.png", caption="Mi Gráfico PNG", use_column_width=True)
+st.st.image("grafico21.png", caption="Mi Gráfico PNG", use_column_width=True)
+
+ # Muestra los primeros 10 datos
 
 # Sección 3: Visualizaciones clave
 st.header("3. Visualizaciones")
