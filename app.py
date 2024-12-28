@@ -11,8 +11,7 @@ st.title("📊 Salud Alimenticia")
 # Sección 1: Introducción
 st.header("1. Introducción")
 st.write("""
-En esta presentación exploraremos el análisis de datos relacionados con [tema del análisis].
-Nuestro objetivo es extraer insights clave y comunicar los resultados de manera efectiva.
+La alimentación juega un papel clave en la prevención y manejo de diversas enfermedades crónicas, como la diabetes, la hipertensión y las enfermedades cardiovasculares. Este trabajo analiza un conjunto de datos que recopila información sobre los hábitos alimenticios y características físicas de personas que padecen estas condiciones. A través de distintas hipótesis, se busca explorar cómo factores como el nivel de actividad física, las preferencias dietéticas y el consumo de nutrientes influyen en la aparición y progresión de estas enfermedades.
 """)
 
 # Sección 2: Datos iniciales
@@ -22,7 +21,7 @@ La mala alimentación es un problema que afecta a la sociedad en general.
 Puede llevar a diversas enfermedades crónicas como la obesidad, diabetes, enfermedades cardiovasculares y ciertos tipos de cáncer. 
 Además, afecta el rendimiento académico y laboral, y puede tener un impacto negativo en la salud mental.
 """)
-st.image("imagen1.jpg", caption="Mi Gráfico PNG" )
+st.image("imagen1.jpg", caption="" )
 
 
 
@@ -35,11 +34,23 @@ incluyendo la obesidad, enfermedades cardiovasculares y una disminución en el b
 """)
 st.image("imagen2.webp")
 
-st.image("grafico1.png", caption="Mi Gráfico PNG" )
+st.header("Actividad de los pacientes")
+
+st.image("grafico1.png", caption="Mi Gráfico PN" )
+
+st.header("Enfermedades relacionadas al sedentarismo")
+
+
 st.image("grafico2.png", caption="Mi Gráfico PNG" )
 
-st.image("grafico3.png", caption="Mi Gráfico PNG" )
-st.image("grafico4.png", caption="Mi Gráfico PNG" )
+st.header("Diferencia Calórica y Problemas de Salud")
+st.write("""
+La diferencia calórica en la dieta de los pacientes puede tener un impacto significativo en su salud. 
+Un exceso de calorías puede llevar a un aumento de peso y obesidad, lo que a su vez incrementa el riesgo de desarrollar enfermedades crónicas 
+como la diabetes tipo 2, enfermedades cardiovasculares y ciertos tipos de cáncer. Por otro lado, una ingesta calórica insuficiente puede 
+resultar en desnutrición, pérdida de masa muscular y un sistema inmunológico debilitado. Mantener un equilibrio calórico adecuado es esencial 
+para la salud y el bienestar general.
+""")
 st.image("grafico5.png", caption="Mi Gráfico PNG" )
 st.image("grafico6.png", caption="Mi Gráfico PNG" )
 st.image("grafico7.png", caption="Mi Gráfico PNG" )
@@ -57,24 +68,3 @@ st.image("grafico19.png", caption="Mi Gráfico PNG" )
 st.image("grafico20.png", caption="Mi Gráfico PNG" )
 st.image("grafico21.png", caption="Mi Gráfico PNG" )
 
- # Muestra los primeros 10 datos
-
-# Sección 3: Visualizaciones clave
-st.header("3. Visualizaciones")
-if uploaded_file:
-    st.write("Explora las distribuciones:")
-    st.bar_chart(data['columna'])  # Reemplaza 'columna' con una existente en tu dataset
-
-    st.write("Relación entre variables:")
-    fig, ax = plt.subplots()
-    ax.scatter(data['columna_x'], data['columna_y'])  # Reemplaza con tus columnas
-    st.pyplot(fig)
-
-# Sección 4: Conclusiones
-st.header("4. Conclusiones")
-st.write("""
-En este análisis hemos destacado los puntos clave relacionados con:
-1. [Insight 1]
-2. [Insight 2]
-3. [Insight 3]
-""")
